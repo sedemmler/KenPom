@@ -85,3 +85,6 @@ class KenPom:
 
     def season(self, season):
         return self.df[self.df['Season'] == int(season)]
+
+kenny = KenPom(start=2002, end=2003)
+print(kenny.season(2002))
