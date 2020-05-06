@@ -9,7 +9,7 @@ What does it do?
 kenny = KenPom(start=2002, end=2003)
 kenny.df
 
-        Rk                 Team  Conf Record  ...   OppO   OppD  NCOS AdjEM  Season
+idx     Rk                 Team  Conf Record  ...   OppO   OppD  NCOS AdjEM  Season
 0      1.0             Kentucky   SEC   32-4  ...  108.6   97.4        6.77    2003
 1      2.0               Kansas   B12   30-8  ...  108.6   96.8        6.07    2003
 2      3.0           Pittsburgh    BE   28-5  ...  105.5   98.4       -8.24    2003
@@ -23,9 +23,9 @@ kenny.df
 kenny = KenPom(start=2002, end=2003)
 kenny.team('Duke')
 
-Rk  Team Conf Record  AdjEM  ...  SoS AdjEM   OppO  OppD  NCOS AdjEM  Season
-5  6.0  Duke  ACC   26-7  23.75  ...       8.85  107.1  98.3        0.64    2003
-0  1.0  Duke  ACC   31-4  34.19  ...       9.87  109.1  99.2        6.66    2002
+idx Rk   Team Conf Record  AdjEM  ...  SoS AdjEM   OppO  OppD  NCOS AdjEM  Season
+5   6.0  Duke  ACC   26-7  23.75  ...       8.85  107.1  98.3        0.64    2003
+0   1.0  Duke  ACC   31-4  34.19  ...       9.87  109.1  99.2        6.66    2002
 ```
 
 (3) Pull a specific conference's historical main page stats
