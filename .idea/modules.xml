@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/KenPomAPI.iml" filepath="$PROJECT_DIR$/.idea/KenPomAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/KenPom.iml" filepath="$PROJECT_DIR$/.idea/KenPom.iml" />
     </modules>
   </component>
 </project>
