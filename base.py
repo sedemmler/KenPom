@@ -7,18 +7,20 @@ import pandas as pd
 
 class KenPom:
 
-    def __init__(self):
+    def __init__(self, start=2002, end=2003):
+        self.start = start
+        self.end = end
         self.df = self.scrape_ken()
 
     def scrape_ken(self):
         """
         :return: DataFrame of KenPom's complete College Rankings / Advanced Stats
         """
-        season = 2003
+        season = self.end
 
         main_pom = list()
 
-        while season >= 2002:
+        while season >= self.start:
             url = 'https://kenpom.com/index.php?y=' + str(season)
             r = requests.get(url)
             soup = BeautifulSoup(r.content, 'lxml')
